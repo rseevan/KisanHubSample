@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="HomeViewController" customModule="KisanHubSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zc0-tk-Spo">
+                                <rect key="frame" x="135" y="120" width="104" height="30"/>
+                                <state key="normal" title="Download Files"/>
+                                <connections>
+                                    <action selector="downloadFilesBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BMF-by-FkC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pz3-GX-JyZ">
+                                <rect key="frame" x="146" y="240" width="82" height="30"/>
+                                <state key="normal" title="Export .CSV"/>
+                                <connections>
+                                    <action selector="exportCSVClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Mw-7M-mi0"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EYZ-21-L6a">
+                                <rect key="frame" x="20" y="180" width="335" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EYZ-21-L6a" secondAttribute="trailing" constant="20" id="07t-Od-Uqd"/>
+                            <constraint firstItem="EYZ-21-L6a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7Cd-fD-9RU"/>
+                            <constraint firstItem="Zc0-tk-Spo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8h9-Xg-Fzm"/>
+                            <constraint firstItem="pz3-GX-JyZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Jnd-w9-1m7"/>
+                            <constraint firstItem="Zc0-tk-Spo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="L9G-cI-8Jl"/>
+                            <constraint firstItem="EYZ-21-L6a" firstAttribute="top" secondItem="Zc0-tk-Spo" secondAttribute="bottom" constant="30" id="cHn-ml-s8q"/>
+                            <constraint firstItem="pz3-GX-JyZ" firstAttribute="top" secondItem="EYZ-21-L6a" secondAttribute="bottom" constant="30" id="pAe-eJ-JC9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTxtFld" destination="EYZ-21-L6a" id="gbL-0R-CIh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

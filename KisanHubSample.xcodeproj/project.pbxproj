@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A054C191FFD70A3006B001D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A054C181FFD70A3006B001D /* AppDelegate.swift */; };
+		1A054C1E1FFD70A3006B001D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A054C1C1FFD70A3006B001D /* Main.storyboard */; };
+		1A054C201FFD70A3006B001D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A054C1F1FFD70A3006B001D /* Assets.xcassets */; };
+		1A054C231FFD70A3006B001D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A054C211FFD70A3006B001D /* LaunchScreen.storyboard */; };
+		1A054C2E1FFD70A4006B001D /* KisanHubSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A054C2D1FFD70A4006B001D /* KisanHubSampleTests.swift */; };
+		1A054C391FFD70A4006B001D /* KisanHubSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A054C381FFD70A4006B001D /* KisanHubSampleUITests.swift */; };
+		1A054C471FFD721A006B001D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A054C461FFD721A006B001D /* HomeViewController.swift */; };
+		1ABD96A71FFD7717003D6F1C /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD96A61FFD7717003D6F1C /* Downloader.swift */; };
+		305975BB7884514DE22828DC /* Pods_KisanHubSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101C378FA9538F90F71BCFBE /* Pods_KisanHubSample.framework */; };
+		968EB1685FF7F6498A5EC7CB /* Pods_KisanHubSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5452EDD3202615AB6AE4EE00 /* Pods_KisanHubSampleTests.framework */; };
+		A91AC7D9F73F78699523F772 /* Pods_KisanHubSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9668FA7980DB36F01AD21BBC /* Pods_KisanHubSampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A054C2A1FFD70A4006B001D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A054C0D1FFD70A3006B001D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A054C141FFD70A3006B001D;
+			remoteInfo = KisanHubSample;
+		};
+		1A054C351FFD70A4006B001D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A054C0D1FFD70A3006B001D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A054C141FFD70A3006B001D;
+			remoteInfo = KisanHubSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		101C378FA9538F90F71BCFBE /* Pods_KisanHubSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KisanHubSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A054C151FFD70A3006B001D /* KisanHubSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisanHubSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A054C181FFD70A3006B001D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A054C1D1FFD70A3006B001D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A054C1F1FFD70A3006B001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A054C221FFD70A3006B001D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A054C241FFD70A3006B001D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A054C291FFD70A4006B001D /* KisanHubSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisanHubSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A054C2D1FFD70A4006B001D /* KisanHubSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisanHubSampleTests.swift; sourceTree = "<group>"; };
+		1A054C2F1FFD70A4006B001D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A054C341FFD70A4006B001D /* KisanHubSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisanHubSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A054C381FFD70A4006B001D /* KisanHubSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisanHubSampleUITests.swift; sourceTree = "<group>"; };
+		1A054C3A1FFD70A4006B001D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A054C461FFD721A006B001D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1ABD96A61FFD7717003D6F1C /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		5173EEF68703826A8E905984 /* Pods-KisanHubSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubSample/Pods-KisanHubSample.release.xcconfig"; sourceTree = "<group>"; };
+		5452EDD3202615AB6AE4EE00 /* Pods_KisanHubSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KisanHubSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A16B07198B360F0ABFCF67E /* Pods-KisanHubSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubSampleTests/Pods-KisanHubSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C2E4E289F9D147CFC2FC816 /* Pods-KisanHubSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubSampleUITests/Pods-KisanHubSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9668FA7980DB36F01AD21BBC /* Pods_KisanHubSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KisanHubSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		993132153C295DB686CA1CA3 /* Pods-KisanHubSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubSample/Pods-KisanHubSample.debug.xcconfig"; sourceTree = "<group>"; };
+		ADDF5B6DC2004C22851769B3 /* Pods-KisanHubSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubSampleUITests/Pods-KisanHubSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C482436DAAC568D21476A06F /* Pods-KisanHubSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubSampleTests/Pods-KisanHubSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A054C121FFD70A3006B001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305975BB7884514DE22828DC /* Pods_KisanHubSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A054C261FFD70A4006B001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968EB1685FF7F6498A5EC7CB /* Pods_KisanHubSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A054C311FFD70A4006B001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91AC7D9F73F78699523F772 /* Pods_KisanHubSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A054C0C1FFD70A3006B001D = {
+			isa = PBXGroup;
+			children = (
+				1A054C171FFD70A3006B001D /* KisanHubSample */,
+				1A054C2C1FFD70A4006B001D /* KisanHubSampleTests */,
+				1A054C371FFD70A4006B001D /* KisanHubSampleUITests */,
+				1A054C161FFD70A3006B001D /* Products */,
+				D92ECDC614312251F4327EE2 /* Pods */,
+				84B3360376046622C15C5082 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A054C161FFD70A3006B001D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A054C151FFD70A3006B001D /* KisanHubSample.app */,
+				1A054C291FFD70A4006B001D /* KisanHubSampleTests.xctest */,
+				1A054C341FFD70A4006B001D /* KisanHubSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A054C171FFD70A3006B001D /* KisanHubSample */ = {
+			isa = PBXGroup;
+			children = (
+				1A307EBD20054031004684CB /* Helper */,
+				1A307EBC20054024004684CB /* Controller */,
+				1A054C181FFD70A3006B001D /* AppDelegate.swift */,
+				1A054C1C1FFD70A3006B001D /* Main.storyboard */,
+				1A054C1F1FFD70A3006B001D /* Assets.xcassets */,
+				1A054C211FFD70A3006B001D /* LaunchScreen.storyboard */,
+				1A054C241FFD70A3006B001D /* Info.plist */,
+			);
+			path = KisanHubSample;
+			sourceTree = "<group>";
+		};
+		1A054C2C1FFD70A4006B001D /* KisanHubSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A054C2D1FFD70A4006B001D /* KisanHubSampleTests.swift */,
+				1A054C2F1FFD70A4006B001D /* Info.plist */,
+			);
+			path = KisanHubSampleTests;
+			sourceTree = "<group>";
+		};
+		1A054C371FFD70A4006B001D /* KisanHubSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A054C381FFD70A4006B001D /* KisanHubSampleUITests.swift */,
+				1A054C3A1FFD70A4006B001D /* Info.plist */,
+			);
+			path = KisanHubSampleUITests;
+			sourceTree = "<group>";
+		};
+		1A307EBC20054024004684CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A054C461FFD721A006B001D /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A307EBD20054031004684CB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1ABD96A61FFD7717003D6F1C /* Downloader.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		84B3360376046622C15C5082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101C378FA9538F90F71BCFBE /* Pods_KisanHubSample.framework */,
+				5452EDD3202615AB6AE4EE00 /* Pods_KisanHubSampleTests.framework */,
+				9668FA7980DB36F01AD21BBC /* Pods_KisanHubSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D92ECDC614312251F4327EE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				993132153C295DB686CA1CA3 /* Pods-KisanHubSample.debug.xcconfig */,
+				5173EEF68703826A8E905984 /* Pods-KisanHubSample.release.xcconfig */,
+				C482436DAAC568D21476A06F /* Pods-KisanHubSampleTests.debug.xcconfig */,
+				7A16B07198B360F0ABFCF67E /* Pods-KisanHubSampleTests.release.xcconfig */,
+				ADDF5B6DC2004C22851769B3 /* Pods-KisanHubSampleUITests.debug.xcconfig */,
+				7C2E4E289F9D147CFC2FC816 /* Pods-KisanHubSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A054C141FFD70A3006B001D /* KisanHubSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A054C3D1FFD70A4006B001D /* Build configuration list for PBXNativeTarget "KisanHubSample" */;
+			buildPhases = (
+				65DC5BD16DA1913EC978156B /* [CP] Check Pods Manifest.lock */,
+				1A054C111FFD70A3006B001D /* Sources */,
+				1A054C121FFD70A3006B001D /* Frameworks */,
+				1A054C131FFD70A3006B001D /* Resources */,
+				57802CE3C49B5647FB59A60D /* [CP] Embed Pods Frameworks */,
+				5DA82007FA089FBF48C3392C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KisanHubSample;
+			productName = KisanHubSample;
+			productReference = 1A054C151FFD70A3006B001D /* KisanHubSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A054C281FFD70A4006B001D /* KisanHubSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A054C401FFD70A4006B001D /* Build configuration list for PBXNativeTarget "KisanHubSampleTests" */;
+			buildPhases = (
+				B5D5AC2F9F907C5F819C3A37 /* [CP] Check Pods Manifest.lock */,
+				1A054C251FFD70A4006B001D /* Sources */,
+				1A054C261FFD70A4006B001D /* Frameworks */,
+				1A054C271FFD70A4006B001D /* Resources */,
+				12C7219F8174F6E9BF4CAA80 /* [CP] Embed Pods Frameworks */,
+				B43E469A62B05101C3E81DB5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A054C2B1FFD70A4006B001D /* PBXTargetDependency */,
+			);
+			name = KisanHubSampleTests;
+			productName = KisanHubSampleTests;
+			productReference = 1A054C291FFD70A4006B001D /* KisanHubSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A054C331FFD70A4006B001D /* KisanHubSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A054C431FFD70A4006B001D /* Build configuration list for PBXNativeTarget "KisanHubSampleUITests" */;
+			buildPhases = (
+				D36C4E9361516148A8358A9C /* [CP] Check Pods Manifest.lock */,
+				1A054C301FFD70A4006B001D /* Sources */,
+				1A054C311FFD70A4006B001D /* Frameworks */,
+				1A054C321FFD70A4006B001D /* Resources */,
+				1B7510D21949F8338FF0A3DF /* [CP] Embed Pods Frameworks */,
+				C13FFF4F39F21C2639AC6E56 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A054C361FFD70A4006B001D /* PBXTargetDependency */,
+			);
+			name = KisanHubSampleUITests;
+			productName = KisanHubSampleUITests;
+			productReference = 1A054C341FFD70A4006B001D /* KisanHubSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A054C0D1FFD70A3006B001D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Seevan Ranka";
+				TargetAttributes = {
+					1A054C141FFD70A3006B001D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					1A054C281FFD70A4006B001D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A054C141FFD70A3006B001D;
+					};
+					1A054C331FFD70A4006B001D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A054C141FFD70A3006B001D;
+					};
+				};
+			};
+			buildConfigurationList = 1A054C101FFD70A3006B001D /* Build configuration list for PBXProject "KisanHubSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A054C0C1FFD70A3006B001D;
+			productRefGroup = 1A054C161FFD70A3006B001D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A054C141FFD70A3006B001D /* KisanHubSample */,
+				1A054C281FFD70A4006B001D /* KisanHubSampleTests */,
+				1A054C331FFD70A4006B001D /* KisanHubSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A054C131FFD70A3006B001D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A054C231FFD70A3006B001D /* LaunchScreen.storyboard in Resources */,
+				1A054C201FFD70A3006B001D /* Assets.xcassets in Resources */,
+				1A054C1E1FFD70A3006B001D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A054C271FFD70A4006B001D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A054C321FFD70A4006B001D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C7219F8174F6E9BF4CAA80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubSampleTests/Pods-KisanHubSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B7510D21949F8338FF0A3DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubSampleUITests/Pods-KisanHubSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57802CE3C49B5647FB59A60D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubSample/Pods-KisanHubSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DA82007FA089FBF48C3392C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubSample/Pods-KisanHubSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65DC5BD16DA1913EC978156B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B43E469A62B05101C3E81DB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubSampleTests/Pods-KisanHubSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D5AC2F9F907C5F819C3A37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C13FFF4F39F21C2639AC6E56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubSampleUITests/Pods-KisanHubSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D36C4E9361516148A8358A9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A054C111FFD70A3006B001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A054C191FFD70A3006B001D /* AppDelegate.swift in Sources */,
+				1ABD96A71FFD7717003D6F1C /* Downloader.swift in Sources */,
+				1A054C471FFD721A006B001D /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A054C251FFD70A4006B001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A054C2E1FFD70A4006B001D /* KisanHubSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A054C301FFD70A4006B001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A054C391FFD70A4006B001D /* KisanHubSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A054C2B1FFD70A4006B001D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A054C141FFD70A3006B001D /* KisanHubSample */;
+			targetProxy = 1A054C2A1FFD70A4006B001D /* PBXContainerItemProxy */;
+		};
+		1A054C361FFD70A4006B001D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A054C141FFD70A3006B001D /* KisanHubSample */;
+			targetProxy = 1A054C351FFD70A4006B001D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A054C1C1FFD70A3006B001D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A054C1D1FFD70A3006B001D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A054C211FFD70A3006B001D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A054C221FFD70A3006B001D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A054C3B1FFD70A4006B001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A054C3C1FFD70A4006B001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A054C3E1FFD70A4006B001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993132153C295DB686CA1CA3 /* Pods-KisanHubSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 393N4333S8;
+				INFOPLIST_FILE = KisanHubSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.KisanHubSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A054C3F1FFD70A4006B001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5173EEF68703826A8E905984 /* Pods-KisanHubSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 393N4333S8;
+				INFOPLIST_FILE = KisanHubSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.KisanHubSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A054C411FFD70A4006B001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C482436DAAC568D21476A06F /* Pods-KisanHubSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 393N4333S8;
+				INFOPLIST_FILE = KisanHubSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.KisanHubSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisanHubSample.app/KisanHubSample";
+			};
+			name = Debug;
+		};
+		1A054C421FFD70A4006B001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A16B07198B360F0ABFCF67E /* Pods-KisanHubSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 393N4333S8;
+				INFOPLIST_FILE = KisanHubSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.KisanHubSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisanHubSample.app/KisanHubSample";
+			};
+			name = Release;
+		};
+		1A054C441FFD70A4006B001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDF5B6DC2004C22851769B3 /* Pods-KisanHubSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KisanHubSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.KisanHubSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KisanHubSample;
+			};
+			name = Debug;
+		};
+		1A054C451FFD70A4006B001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2E4E289F9D147CFC2FC816 /* Pods-KisanHubSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KisanHubSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.KisanHubSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KisanHubSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A054C101FFD70A3006B001D /* Build configuration list for PBXProject "KisanHubSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A054C3B1FFD70A4006B001D /* Debug */,
+				1A054C3C1FFD70A4006B001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A054C3D1FFD70A4006B001D /* Build configuration list for PBXNativeTarget "KisanHubSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A054C3E1FFD70A4006B001D /* Debug */,
+				1A054C3F1FFD70A4006B001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A054C401FFD70A4006B001D /* Build configuration list for PBXNativeTarget "KisanHubSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A054C411FFD70A4006B001D /* Debug */,
+				1A054C421FFD70A4006B001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A054C431FFD70A4006B001D /* Build configuration list for PBXNativeTarget "KisanHubSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A054C441FFD70A4006B001D /* Debug */,
+				1A054C451FFD70A4006B001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A054C0D1FFD70A3006B001D /* Project object */;
+}
